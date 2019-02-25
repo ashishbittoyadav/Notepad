@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    android:padding="15dp"
+    android:baselineAligned="false">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="80"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/editnote">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/note_name"
+        android:textSize="20sp"
+        android:text="@string/name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:text="@string/date"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/number"
+        android:id="@+id/columnid"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher_foreground"
+            android:id="@+id/delete"
+            android:contentDescription="TODO" />
+
+    </LinearLayout>
+</LinearLayout>

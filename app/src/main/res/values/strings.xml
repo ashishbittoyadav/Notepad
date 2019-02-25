@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Notepad</string>
+    <string name="name">name</string>
+    <string name="date">date</string>
+    <string name="number">number</string>
+    <string name="add">add</string>
+    <string name="save">save</string>
+</resources>
